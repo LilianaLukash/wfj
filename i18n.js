@@ -6,6 +6,8 @@
       meta: {
         homeTitle: "WFJ — Digital Products & Intelligent Automation",
         homeDescription: "WFJ designs and builds digital products, mobile applications, MVPs and intelligent automation solutions.",
+        appTitle: "Dual Language Book — WFJ",
+        appDescription: "Dual Language Book is a WFJ bilingual listening app: hear a book while walking, screen off. Foreign fragment, then the translation, then the original again.",
         privacyTitle: "Privacy Policy — WFJ",
         privacyDescription: "Privacy Policy for WFJ websites, digital products and mobile applications."
       },
@@ -19,6 +21,7 @@
       nav: {
         services: "Services",
         building: "What we're building",
+        app: "App",
         contact: "Contact"
       },
       hero: {
@@ -44,7 +47,39 @@
         lead: "We explore ideas in education, productivity and intelligent digital tools — from concept and validation to launch.",
         education: "Education",
         productivity: "Productivity",
-        tools: "Intelligent digital tools"
+        tools: "Intelligent digital tools",
+        productKicker: "Education · Language learning",
+        productName: "Dual Language Book",
+        productText: "Listen to a book while walking, screen off. A foreign fragment, then the translation, then the original again.",
+        productCta: "See the product"
+      },
+      app: {
+        eyebrow: "A WFJ product",
+        title: "Dual Language Book",
+        lead: "Listen to a book while you walk. The screen can stay off. A short passage in the original language, then the translation, then the original again.",
+        storeSoon: "Coming soon on Google Play",
+        contact: "Ask about the app",
+        howEyebrow: "How it works",
+        howTitle: "The same passage, twice in the original — with meaning in between.",
+        how1Title: "Hear the original",
+        how1Text: "A short fragment in the language of the book.",
+        how2Title: "Hear the translation",
+        how2Text: "The same passage in the language you are learning from.",
+        how3Title: "Hear it again",
+        how3Text: "The original returns, now with the meaning already in mind.",
+        featuresEyebrow: "Made for walking",
+        featuresTitle: "Language learning that fits a walk.",
+        featWalkTitle: "Screen off",
+        featWalkText: "Keep listening with the phone in your pocket. Built for walking, not for staring at a page.",
+        featLibraryTitle: "A ready library",
+        featLibraryText: "Start with public-domain books, or add your own EPUB files.",
+        featLangTitle: "Languages that fit real reading",
+        featLangText: "Interface in English, Russian and Ukrainian. Books in English, Portuguese, Spanish, French, German and more. Translation into Russian, English or Ukrainian.",
+        getEyebrow: "Android",
+        getTitle: "Coming soon on Google Play",
+        getLead: "Dual Language Book is on its way to Google Play. Write to us if you would like to know when it is available.",
+        packageLabel: "Android package",
+        privacyNote: "A WFJ mobile application. Analytics are described in the Privacy Policy."
       },
       contact: {
         eyebrow: "Contact",
@@ -106,6 +141,7 @@
         appsTitle: "Mobile applications",
         apps1: "This policy applies to mobile applications published by WFJ, including applications distributed through Google Play and other app stores. Those applications currently collect analytics through Google Firebase. Some may later include paid features processed through the app store.",
         apps2: "If an application uses optional device permissions, such as storage or notifications, we request them only to provide a feature you choose to use. You can deny or later change permissions in your device settings.",
+        appsProduct: "This includes Dual Language Book, our bilingual listening application for learning languages while you walk.",
         changesTitle: "Changes",
         changes: "We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. The current version will always be available on this page.",
         contactTitle: "Contact",
@@ -116,6 +152,8 @@
       meta: {
         homeTitle: "WFJ — Produtos Digitais e Automação Inteligente",
         homeDescription: "A WFJ concebe e desenvolve produtos digitais, aplicações móveis, MVPs e soluções de automação inteligente.",
+        appTitle: "Dual Language Book — WFJ",
+        appDescription: "O Dual Language Book é uma aplicação de escuta bilingue da WFJ: ouça um livro a caminhar, com o ecrã desligado. Fragmento original, depois a tradução, depois o original outra vez.",
         privacyTitle: "Política de Privacidade — WFJ",
         privacyDescription: "Política de Privacidade dos websites, produtos digitais e aplicações móveis da WFJ."
       },
@@ -129,6 +167,7 @@
       nav: {
         services: "Serviços",
         building: "O que estamos a construir",
+        app: "Produto",
         contact: "Contacto"
       },
       hero: {
@@ -154,7 +193,39 @@
         lead: "Exploramos ideias em educação, produtividade e ferramentas digitais inteligentes — do conceito e validação até ao lançamento.",
         education: "Educação",
         productivity: "Produtividade",
-        tools: "Ferramentas digitais inteligentes"
+        tools: "Ferramentas digitais inteligentes",
+        productKicker: "Educação · Aprendizagem de línguas",
+        productName: "Dual Language Book",
+        productText: "Ouça um livro a caminhar, com o ecrã desligado. Um fragmento na língua original, depois a tradução, depois o original outra vez.",
+        productCta: "Ver o produto"
+      },
+      app: {
+        eyebrow: "Um produto da WFJ",
+        title: "Dual Language Book",
+        lead: "Ouça um livro enquanto caminha. O ecrã pode ficar desligado. Uma passagem curta na língua original, depois a tradução, depois o original outra vez.",
+        storeSoon: "Em breve no Google Play",
+        contact: "Pergunte sobre a aplicação",
+        howEyebrow: "Como funciona",
+        howTitle: "A mesma passagem, duas vezes no original — com o sentido no meio.",
+        how1Title: "Ouça o original",
+        how1Text: "Um fragmento curto na língua do livro.",
+        how2Title: "Ouça a tradução",
+        how2Text: "A mesma passagem na língua a partir da qual está a aprender.",
+        how3Title: "Ouça outra vez",
+        how3Text: "O original regressa, agora com o sentido já presente.",
+        featuresEyebrow: "Feito para caminhar",
+        featuresTitle: "Aprendizagem de línguas que cabe num passeio.",
+        featWalkTitle: "Ecrã desligado",
+        featWalkText: "Continue a ouvir com o telemóvel no bolso. Pensado para caminhar, não para olhar para uma página.",
+        featLibraryTitle: "Uma biblioteca pronta",
+        featLibraryText: "Comece com livros de domínio público ou adicione os seus próprios ficheiros EPUB.",
+        featLangTitle: "Línguas para leitura real",
+        featLangText: "Interface em inglês, russo e ucraniano. Livros em inglês, português, espanhol, francês, alemão e outras. Tradução para russo, inglês ou ucraniano.",
+        getEyebrow: "Android",
+        getTitle: "Em breve no Google Play",
+        getLead: "O Dual Language Book está a caminho do Google Play. Escreva-nos se quiser saber quando estiver disponível.",
+        packageLabel: "Pacote Android",
+        privacyNote: "Uma aplicação móvel da WFJ. A análise está descrita na Política de Privacidade."
       },
       contact: {
         eyebrow: "Contacto",
@@ -216,6 +287,7 @@
         appsTitle: "Aplicações móveis",
         apps1: "Esta política aplica-se às aplicações móveis publicadas pela WFJ, incluindo aplicações distribuídas através do Google Play e de outras lojas. Essas aplicações recolhem atualmente dados de análise através do Google Firebase. Algumas poderão mais tarde incluir funcionalidades pagas processadas pela loja de aplicações.",
         apps2: "Se uma aplicação utilizar permissões opcionais do dispositivo, como armazenamento ou notificações, pedimo-las apenas para uma funcionalidade que escolheu usar. Pode recusar ou alterar as permissões mais tarde nas definições do dispositivo.",
+        appsProduct: "Isto inclui o Dual Language Book, a nossa aplicação de escuta bilingue para aprender línguas enquanto caminha.",
         changesTitle: "Alterações",
         changes: "Podemos atualizar esta Política de Privacidade periodicamente. A data de «Última atualização» no topo será alterada quando o fizermos. A versão atual estará sempre disponível nesta página.",
         contactTitle: "Contacto",
@@ -266,8 +338,8 @@
     });
 
     var page = document.documentElement.getAttribute("data-page") || "home";
-    var title = lookup(lang, page === "privacy" ? "meta.privacyTitle" : "meta.homeTitle");
-    var description = lookup(lang, page === "privacy" ? "meta.privacyDescription" : "meta.homeDescription");
+    var title = lookup(lang, "meta." + page + "Title") || lookup(lang, "meta.homeTitle");
+    var description = lookup(lang, "meta." + page + "Description") || lookup(lang, "meta.homeDescription");
     if (title) document.title = title;
 
     var metaDesc = document.querySelector('meta[name="description"]');

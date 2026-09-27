@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-page="app">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dual Language Book — WFJ</title>
+  <meta name="description" content="Dual Language Book is a WFJ bilingual listening app: hear a book while walking, screen off. Foreign fragment, then the translation, then the original again.">
+  <meta name="theme-color" content="#f7f1e6">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dual Language Book — WFJ">
+  <meta property="og:description" content="Listen to a book while walking, screen off. A bilingual reading loop for language learners.">
+  <meta property="og:site_name" content="WFJ">
+  <meta property="og:image" content="assets/hero.jpg">
+
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" data-i18n-aria="a11y.home">
+        <img src="assets/logo.png" alt="" class="brand-mark">
+        <span class="brand-name">WFJ</span>
+      </a>
+
+      <div class="header-tools">
+        <nav class="site-nav" data-i18n-aria="a11y.nav">
+          <a href="index.html#services" data-i18n="nav.services">Services</a>
+          <a href="index.html#building" data-i18n="nav.building">What we're building</a>
+          <a href="app.html" class="nav-keep" aria-current="page" data-i18n="nav.app">App</a>
+          <a href="index.html#contact" class="nav-cta" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-aria="a11y.language">
+          <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-set-lang="pt" aria-pressed="false">PT</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="product-hero">
+      <div class="container product-hero-inner">
+        <div>
+          <p class="eyebrow" data-i18n="app.eyebrow">A WFJ product</p>
+          <h1 data-i18n="app.title">Dual Language Book</h1>
+          <p class="lead" data-i18n="app.lead">
+            Listen to a book while you walk. The screen can stay off. A short passage
+            in the original language, then the translation, then the original again.
+          </p>
+          <div class="product-hero-actions">
+            <span class="btn btn-soon" data-i18n="app.storeSoon">Coming soon on Google Play</span>
+            <a href="mailto:admin@wfj.pt" class="btn btn-ghost" data-i18n="app.contact">Ask about the app</a>
+          </div>
+        </div>
+        <figure class="product-hero-media">
+          <img
+            src="assets/hero.jpg"
+            data-i18n-alt="a11y.heroAlt"
+            alt="A quiet workspace with a laptop and phone showing a bilingual reading experience."
+            width="800"
+            height="560"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="app.howEyebrow">How it works</p>
+          <h2 data-i18n="app.howTitle">The same passage, twice in the original — with meaning in between.</h2>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3 data-i18n="app.how1Title">Hear the original</h3>
+            <p data-i18n="app.how1Text">A short fragment in the language of the book.</p>
+          </article>
+          <article class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3 data-i18n="app.how2Title">Hear the translation</h3>
+            <p data-i18n="app.how2Text">The same passage in the language you are learning from.</p>
+          </article>
+          <article class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3 data-i18n="app.how3Title">Hear it again</h3>
+            <p data-i18n="app.how3Text">The original returns, now with the meaning already in mind.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="app.featuresEyebrow">Made for walking</p>
+          <h2 data-i18n="app.featuresTitle">Language learning that fits a walk.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 7v5l3 2"/>
+              </svg>
+            </div>
+            <h3 data-i18n="app.featWalkTitle">Screen off</h3>
+            <p data-i18n="app.featWalkText">Keep listening with the phone in your pocket. Built for walking, not for staring at a page.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <h3 data-i18n="app.featLibraryTitle">A ready library</h3>
+            <p data-i18n="app.featLibraryText">Start with public-domain books, or add your own EPUB files.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+              </svg>
+            </div>
+            <h3 data-i18n="app.featLangTitle">Languages that fit real reading</h3>
+            <p data-i18n="app.featLangText">Interface in English, Russian and Ukrainian. Books in English, Portuguese, Spanish, French, German and more. Translation into Russian, English or Ukrainian.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container product-get">
+        <p class="eyebrow" data-i18n="app.getEyebrow">Android</p>
+        <h2 data-i18n="app.getTitle">Coming soon on Google Play</h2>
+        <p class="lead" data-i18n="app.getLead">
+          Dual Language Book is on its way to Google Play. Write to us if you would
+          like to know when it is available.
+        </p>
+        <div class="product-get-actions">
+          <span class="btn btn-soon" data-i18n="app.storeSoon">Coming soon on Google Play</span>
+          <a href="mailto:admin@wfj.pt" class="btn btn-primary" data-i18n="app.contact">Ask about the app</a>
+        </div>
+        <p class="product-meta">
+          <span data-i18n="app.packageLabel">Android package</span>
+          <code>com.duallanguagebook.dual_language_book</code>
+        </p>
+        <p class="product-legal">
+          <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <span aria-hidden="true"> · </span>
+          <span data-i18n="app.privacyNote">A WFJ mobile application. Analytics are described in the Privacy Policy.</span>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footer.copy">&copy; 2026 WFJ. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="app.html" aria-current="page" data-i18n="nav.app">App</a>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="mailto:admin@wfj.pt">admin@wfj.pt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
