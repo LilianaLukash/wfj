@@ -17,6 +17,7 @@
         language: "Language",
         focus: "Areas of focus",
         heroAlt: "A quiet workspace with a laptop and phone showing a bilingual reading experience.",
+        appHeroAlt: "Two phones showing a book library and a bilingual listening screen, next to a person listening with headphones.",
         where: "Where you can listen"
       },
       nav: {
@@ -190,6 +191,7 @@
         language: "Idioma",
         focus: "Áreas de foco",
         heroAlt: "Um espaço de trabalho calmo com um portátil e um telemóvel a mostrar uma experiência de leitura bilingue.",
+        appHeroAlt: "Dois telemóveis com a biblioteca e o ecrã de escuta bilingue, ao lado de uma pessoa a ouvir com auscultadores.",
         where: "Onde pode ouvir"
       },
       nav: {
@@ -363,6 +365,7 @@
         language: "Мова",
         focus: "Напрями",
         heroAlt: "Спокійне робоче місце з ноутбуком і телефоном, на яких двомовне читання.",
+        appHeroAlt: "Два телефони з бібліотекою та екраном двомовного слухання поруч із людиною в навушниках.",
         where: "Де можна слухати"
       },
       nav: {
