@@ -6,8 +6,8 @@
       meta: {
         homeTitle: "WFJ — Digital Products & Intelligent Automation",
         homeDescription: "WFJ designs and builds digital products, mobile applications, MVPs and intelligent automation solutions.",
-        appTitle: "Dual Language Book — WFJ",
-        appDescription: "Improve your language without extra time. Dual Language Book puts original text, translation and audio in one loop — on a walk, on the road, during sport or at home.",
+        appTitle: "Bilingual Reader — WFJ",
+        appDescription: "Improve your language without extra time. Bilingual Reader puts original text, translation and audio in one loop — on a walk, on the road, during sport or at home.",
         privacyTitle: "Privacy Policy — WFJ",
         privacyDescription: "Privacy Policy for WFJ websites, digital products and mobile applications."
       },
@@ -50,13 +50,13 @@
         productivity: "Productivity",
         tools: "Intelligent digital tools",
         productKicker: "Education · Language learning",
-        productName: "Dual Language Book",
+        productName: "Bilingual Reader",
         productText: "Improve your language without extra time: read and listen to books in the original, with translation, while you walk, commute or stay at home.",
         productCta: "See the product"
       },
       app: {
         eyebrow: "Read. Listen. Understand.",
-        title: "Dual Language Book",
+        title: "Bilingual Reader",
         claim: "Improve your language without extra time.",
         lead: "Learn naturally by reading and listening to books in the original. Text, audio and translation sit in one loop, so a walk, a commute, a workout or an evening at home already counts as practice.",
         storeSoon: "Coming soon on Google Play",
@@ -168,7 +168,7 @@
         appsTitle: "Mobile applications",
         apps1: "This policy applies to mobile applications published by WFJ, including applications distributed through Google Play and other app stores. Those applications currently collect analytics through Google Firebase. Some may later include paid features processed through the app store.",
         apps2: "If an application uses optional device permissions, such as storage or notifications, we request them only to provide a feature you choose to use. You can deny or later change permissions in your device settings.",
-        appsProduct: "This includes Dual Language Book, our bilingual listening application for learning languages while you walk.",
+        appsProduct: "This includes Bilingual Reader, our bilingual listening application for learning languages while you walk.",
         changesTitle: "Changes",
         changes: "We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. The current version will always be available on this page.",
         contactTitle: "Contact",
@@ -179,8 +179,8 @@
       meta: {
         homeTitle: "WFJ — Produtos Digitais e Automação Inteligente",
         homeDescription: "A WFJ concebe e desenvolve produtos digitais, aplicações móveis, MVPs e soluções de automação inteligente.",
-        appTitle: "Dual Language Book — WFJ",
-        appDescription: "Melhore a língua sem tempo extra. O Dual Language Book junta texto original, tradução e áudio num só ciclo — a caminhar, na estrada, no desporto ou em casa.",
+        appTitle: "Bilingual Reader — WFJ",
+        appDescription: "Melhore a língua sem tempo extra. O Bilingual Reader junta texto original, tradução e áudio num só ciclo — a caminhar, na estrada, no desporto ou em casa.",
         privacyTitle: "Política de Privacidade — WFJ",
         privacyDescription: "Política de Privacidade dos websites, produtos digitais e aplicações móveis da WFJ."
       },
@@ -223,13 +223,13 @@
         productivity: "Produtividade",
         tools: "Ferramentas digitais inteligentes",
         productKicker: "Educação · Aprendizagem de línguas",
-        productName: "Dual Language Book",
+        productName: "Bilingual Reader",
         productText: "Melhore a língua sem tempo extra: leia e ouça livros no original, com tradução, a caminhar, no caminho ou em casa.",
         productCta: "Ver o produto"
       },
       app: {
         eyebrow: "Ler. Ouvir. Compreender.",
-        title: "Dual Language Book",
+        title: "Bilingual Reader",
         claim: "Melhore a língua sem tempo extra.",
         lead: "Aprenda de forma natural a ler e a ouvir livros no original. Texto, áudio e tradução ficam no mesmo ciclo, para um passeio, o caminho, o desporto ou a noite em casa já contarem como prática.",
         storeSoon: "Em breve no Google Play",
@@ -341,7 +341,7 @@
         appsTitle: "Aplicações móveis",
         apps1: "Esta política aplica-se às aplicações móveis publicadas pela WFJ, incluindo aplicações distribuídas através do Google Play e de outras lojas. Essas aplicações recolhem atualmente dados de análise através do Google Firebase. Algumas poderão mais tarde incluir funcionalidades pagas processadas pela loja de aplicações.",
         apps2: "Se uma aplicação utilizar permissões opcionais do dispositivo, como armazenamento ou notificações, pedimo-las apenas para uma funcionalidade que escolheu usar. Pode recusar ou alterar as permissões mais tarde nas definições do dispositivo.",
-        appsProduct: "Isto inclui o Dual Language Book, a nossa aplicação de escuta bilingue para aprender línguas enquanto caminha.",
+        appsProduct: "Isto inclui o Bilingual Reader, a nossa aplicação de escuta bilingue para aprender línguas enquanto caminha.",
         changesTitle: "Alterações",
         changes: "Podemos atualizar esta Política de Privacidade periodicamente. A data de «Última atualização» no topo será alterada quando o fizermos. A versão atual estará sempre disponível nesta página.",
         contactTitle: "Contacto",
@@ -352,8 +352,8 @@
       meta: {
         homeTitle: "WFJ — цифрові продукти та інтелектуальна автоматизація",
         homeDescription: "WFJ розробляє цифрові продукти, мобільні застосунки, MVP та рішення інтелектуальної автоматизації.",
-        appTitle: "Dual Language Book — WFJ",
-        appDescription: "Покращуйте мову без додаткового часу. Dual Language Book зводить оригінал, переклад і аудіо в один цикл — на прогулянці, в дорозі, на спорті чи вдома.",
+        appTitle: "Bilingual Reader — WFJ",
+        appDescription: "Покращуйте мову без додаткового часу. Bilingual Reader зводить оригінал, переклад і аудіо в один цикл — на прогулянці, в дорозі, на спорті чи вдома.",
         privacyTitle: "Політика конфіденційності — WFJ",
         privacyDescription: "Політика конфіденційності сайтів, цифрових продуктів і мобільних застосунків WFJ."
       },
@@ -396,13 +396,13 @@
         productivity: "Продуктивність",
         tools: "Інтелектуальні цифрові інструменти",
         productKicker: "Освіта · Вивчення мов",
-        productName: "Dual Language Book",
+        productName: "Bilingual Reader",
         productText: "Покращуйте мову без додаткового часу: читайте й слухайте книги в оригіналі з перекладом — на прогулянці, в дорозі чи вдома.",
         productCta: "Дивитися продукт"
       },
       app: {
         eyebrow: "Читайте. Слухайте. Розумійте.",
-        title: "Dual Language Book",
+        title: "Bilingual Reader",
         claim: "Покращуйте мову без додаткового часу.",
         lead: "Вчіть мову природно: читайте й слухайте книги в оригіналі. Текст, аудіо й переклад в одному циклі — тож прогулянка, дорога, спорт чи вечір удома вже є практикою.",
         storeSoon: "Незабаром у Google Play",
@@ -514,7 +514,7 @@
         appsTitle: "Мобільні застосунки",
         apps1: "Ця політика стосується мобільних застосунків WFJ, зокрема тих, що поширюються через Google Play та інші магазини. Зараз вони збирають аналітику через Google Firebase. Деякі пізніше можуть мати платні функції, які обробляє магазин застосунків.",
         apps2: "Якщо застосунок просить необов’язкові дозволи пристрою, наприклад сховище чи сповіщення, ми запитуємо їх лише для функції, яку ви самі вмикаєте. Дозвіл можна відхилити або пізніше змінити в налаштуваннях пристрою.",
-        appsProduct: "Це зокрема Dual Language Book — наш двомовний аудіозастосунок, щоб вивчати мови на прогулянці.",
+        appsProduct: "Це зокрема Bilingual Reader — наш двомовний аудіозастосунок, щоб вивчати мови на прогулянці.",
         changesTitle: "Зміни",
         changes: "Ми можемо час від часу оновлювати цю Політику конфіденційності. Дата «Останнє оновлення» вгорі зміниться. Актуальна версія завжди буде на цій сторінці.",
         contactTitle: "Контакт",
