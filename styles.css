@@ -113,14 +113,6 @@ img {
   object-fit: contain;
 }
 
-.brand-name {
-  font-family: var(--serif);
-  font-size: 28px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  line-height: 1;
-}
-
 .header-tools {
   display: flex;
   align-items: center;
@@ -843,10 +835,6 @@ img {
 
   .product-hero-media img {
     min-height: 220px;
-  }
-
-  .brand-name {
-    font-size: 24px;
   }
 
   .section {
