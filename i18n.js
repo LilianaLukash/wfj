@@ -112,7 +112,15 @@
       contact: {
         eyebrow: "Contact",
         title: "Let’s make ideas happen.",
-        lead: "Have an idea, a project or a process that could work better? Get in touch."
+        lead: "Have an idea, a project or a process that could work better? Get in touch.",
+        nameLabel: "Name",
+        namePlaceholder: "Your name",
+        messageLabel: "Message",
+        messagePlaceholder: "Tell us briefly what you need",
+        whatsappCta: "Message on WhatsApp",
+        whatsappNote: "Opens WhatsApp with your message ready to send.",
+        orEmail: "Or email",
+        whatsappTemplate: "Hello, my name is {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. All rights reserved.",
@@ -286,7 +294,15 @@
       contact: {
         eyebrow: "Contacto",
         title: "Vamos fazer as ideias acontecer.",
-        lead: "Tem uma ideia, um projeto ou um processo que podia funcionar melhor? Fale connosco."
+        lead: "Tem uma ideia, um projeto ou um processo que podia funcionar melhor? Fale connosco.",
+        nameLabel: "Nome",
+        namePlaceholder: "O seu nome",
+        messageLabel: "Mensagem",
+        messagePlaceholder: "Diga-nos brevemente o que precisa",
+        whatsappCta: "Enviar no WhatsApp",
+        whatsappNote: "Abre o WhatsApp com a mensagem pronta a enviar.",
+        orEmail: "Ou e-mail",
+        whatsappTemplate: "Olá, chamo-me {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. Todos os direitos reservados.",
@@ -460,7 +476,15 @@
       contact: {
         eyebrow: "Контакт",
         title: "Зробимо ідеї реальними.",
-        lead: "Є ідея, проєкт або процес, який може працювати краще? Напишіть нам."
+        lead: "Є ідея, проєкт або процес, який може працювати краще? Напишіть нам.",
+        nameLabel: "Ім’я",
+        namePlaceholder: "Ваше ім’я",
+        messageLabel: "Повідомлення",
+        messagePlaceholder: "Коротко опишіть, що потрібно",
+        whatsappCta: "Написати в WhatsApp",
+        whatsappNote: "Відкриє WhatsApp із готовим повідомленням.",
+        orEmail: "Або email",
+        whatsappTemplate: "Вітаю, мене звати {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. Усі права захищено.",
@@ -568,6 +592,11 @@
     document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
       var value = lookup(lang, el.getAttribute("data-i18n-alt"));
       if (typeof value === "string") el.setAttribute("alt", value);
+    });
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
+      var value = lookup(lang, el.getAttribute("data-i18n-placeholder"));
+      if (typeof value === "string") el.setAttribute("placeholder", value);
     });
 
     var page = document.documentElement.getAttribute("data-page") || "home";

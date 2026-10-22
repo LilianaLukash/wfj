@@ -29,6 +29,13 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+main [id],
+.section,
+.legal,
+.product-hero {
+  scroll-margin-top: 96px;
+}
+
 body {
   margin: 0;
   font-family: var(--font);
@@ -105,12 +112,14 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 14px;
+  flex-shrink: 0;
 }
 
 .brand-mark {
   width: 62px;
   height: 62px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .header-tools {
@@ -469,11 +478,92 @@ img {
 
 .contact-inner {
   text-align: center;
-  max-width: 720px;
+  max-width: 560px;
 }
 
 .contact .lead {
   margin: 18px auto 0;
+}
+
+.contact-form {
+  margin-top: 36px;
+  display: grid;
+  gap: 18px;
+  text-align: left;
+}
+
+.contact-field {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.contact-field input,
+.contact-field textarea {
+  width: 100%;
+  margin: 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fffdf8;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.45;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  outline: none;
+  border-color: #d8c89a;
+  box-shadow: 0 0 0 3px rgba(198, 160, 58, 0.18);
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.contact-submit {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.contact-note {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.contact-alt {
+  margin: 28px 0 0;
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.contact-alt a {
+  margin-left: 6px;
+  color: var(--gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.contact-alt a:hover {
+  color: var(--ink);
 }
 
 .contact-email {
@@ -742,6 +832,7 @@ img {
   font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
   font-size: 13px;
   color: var(--ink-soft);
+  overflow-wrap: anywhere;
 }
 
 .product-legal {
@@ -778,28 +869,43 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .hero-scene,
-  .hero-inner {
-    min-height: 0;
-  }
-
-  .hero-image {
-    position: relative;
-    height: 52vw;
-    min-height: 280px;
-    object-position: 70% 60%;
-  }
-
-  .hero-fade {
+  .site-nav a:not(.nav-cta):not(.nav-keep) {
     display: none;
   }
 
+  .hero-scene,
   .hero-inner {
-    padding: 36px 0 8px;
+    min-height: min(78vh, 720px);
+  }
+
+  .hero-inner {
+    padding: 64px 0 88px;
   }
 
   .hero-copy {
-    max-width: none;
+    max-width: min(540px, 100%);
+  }
+
+  .hero-image {
+    object-position: 74% 52%;
+  }
+
+  .hero-fade {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(255, 253, 248, 0.94) 0%,
+        rgba(255, 253, 248, 0.78) 34%,
+        rgba(255, 253, 248, 0.28) 58%,
+        transparent 74%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(255, 253, 248, 0.22) 0%,
+        transparent 20%,
+        transparent 58%,
+        rgba(255, 253, 248, 0.5) 100%
+      );
   }
 
   .pill-list {
@@ -809,28 +915,103 @@ img {
 
 @media (max-width: 640px) {
   .container {
-    width: calc(100% - 36px);
+    width: calc(100% - 32px);
+  }
+
+  .brand-mark {
+    width: 44px;
+    height: 44px;
   }
 
   .header-inner {
-    height: 72px;
+    height: 64px;
+    gap: 10px;
   }
 
   .header-tools {
-    gap: 12px;
+    gap: 8px;
   }
 
   .site-nav {
-    gap: 12px;
+    gap: 8px;
   }
 
-  .site-nav a:not(.nav-cta):not(.nav-keep) {
+  .site-nav a.nav-keep {
     display: none;
+  }
+
+  .nav-cta {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .lang-switch button {
+    min-width: 36px;
+    min-height: 36px;
+    padding: 8px 7px;
+  }
+
+  .hero-scene,
+  .hero-inner {
+    min-height: calc(100svh - 64px);
+  }
+
+  .hero-inner {
+    align-items: flex-end;
+    padding: 28px 0 32px;
+  }
+
+  .hero-copy {
+    max-width: none;
+  }
+
+  .hero-image {
+    object-position: 84% 48%;
+  }
+
+  .hero-fade {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(255, 253, 248, 0.1) 0%,
+        transparent 16%,
+        rgba(255, 253, 248, 0.2) 42%,
+        rgba(255, 253, 248, 0.78) 68%,
+        rgba(255, 253, 248, 0.96) 100%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(255, 253, 248, 0.42) 0%,
+        transparent 58%
+      );
+  }
+
+  .hero h1 {
+    font-size: clamp(30px, 8.2vw, 38px);
+    margin-bottom: 14px;
+  }
+
+  .hero .lead {
+    font-size: 16px;
+  }
+
+  .hero-actions {
+    margin-top: 22px;
+  }
+
+  .hero-actions .btn,
+  .product-hero-actions .btn,
+  .product-get-actions .btn {
+    width: 100%;
   }
 
   .product-hero,
   .product-hero-inner {
-    padding-top: 40px;
+    padding-top: 32px;
+  }
+
+  .product-hero h1 {
+    font-size: clamp(34px, 10vw, 42px);
   }
 
   .product-hero-media img {
@@ -838,16 +1019,79 @@ img {
   }
 
   .section {
-    padding: 72px 0;
+    padding: 56px 0;
+  }
+
+  .section-head {
+    margin-bottom: 32px;
+  }
+
+  .card,
+  .step,
+  .fact-list li,
+  .product-teaser {
+    padding: 24px 20px;
+  }
+
+  .card h3 {
+    font-size: 24px;
   }
 
   .contact {
-    padding: 88px 0;
+    padding: 72px 0;
+  }
+
+  .contact-email {
+    width: 100%;
+    max-width: 100%;
+    padding: 14px 18px;
+    font-size: 18px;
+  }
+
+  .legal {
+    padding: 40px 0 80px;
+  }
+
+  .legal h1 {
+    font-size: clamp(32px, 10vw, 42px);
   }
 
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) and (max-height: 740px) {
+  .hero .eyebrow {
+    margin-bottom: 10px;
+  }
+
+  .hero h1 {
+    font-size: clamp(26px, 7.2vw, 32px);
+    margin-bottom: 10px;
+  }
+
+  .hero .lead {
+    font-size: 15px;
+  }
+
+  .hero-actions {
+    margin-top: 16px;
+    gap: 8px;
+  }
+
+  .hero-actions .btn {
+    padding: 12px 18px;
+  }
+}
+
+@media (hover: none) {
+  .btn:hover,
+  .card:hover,
+  .contact-email:hover,
+  .product-teaser:hover {
+    transform: none;
   }
 }
 

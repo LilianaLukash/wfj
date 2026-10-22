@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
 
@@ -154,7 +154,24 @@
         <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
         <h2 data-i18n="contact.title">Let’s make ideas happen.</h2>
         <p class="lead" data-i18n="contact.lead">Have an idea, a project or a process that could work better? Get in touch.</p>
-        <a href="mailto:admin@wfj.pt" class="contact-email">admin@wfj.pt</a>
+
+        <form class="contact-form" id="whatsapp-form" novalidate>
+          <label class="contact-field">
+            <span data-i18n="contact.nameLabel">Name</span>
+            <input type="text" name="name" autocomplete="name" required maxlength="80" data-i18n-placeholder="contact.namePlaceholder" placeholder="Your name">
+          </label>
+          <label class="contact-field">
+            <span data-i18n="contact.messageLabel">Message</span>
+            <textarea name="message" rows="4" required maxlength="1000" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Tell us briefly what you need"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary contact-submit" data-i18n="contact.whatsappCta">Message on WhatsApp</button>
+          <p class="contact-note" data-i18n="contact.whatsappNote">Opens WhatsApp with your message ready to send.</p>
+        </form>
+
+        <p class="contact-alt">
+          <span data-i18n="contact.orEmail">Or email</span>
+          <a href="mailto:admin@wfj.pt">admin@wfj.pt</a>
+        </p>
       </div>
     </section>
 
@@ -172,5 +189,6 @@
   </footer>
 
   <script src="i18n.js"></script>
+  <script src="contact.js"></script>
 </body>
 </html>
