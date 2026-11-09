@@ -15,6 +15,8 @@
         home: "WFJ home",
         nav: "Primary",
         language: "Language",
+        menu: "Open menu",
+        menuClose: "Close menu",
         focus: "Areas of focus",
         heroAlt: "A quiet workspace with a laptop and phone showing a bilingual reading experience.",
         appHeroAlt: "Two phones showing a book library and a bilingual listening screen, next to a person listening with headphones.",
@@ -197,6 +199,8 @@
         home: "Início WFJ",
         nav: "Principal",
         language: "Idioma",
+        menu: "Abrir menu",
+        menuClose: "Fechar menu",
         focus: "Áreas de foco",
         heroAlt: "Um espaço de trabalho calmo com um portátil e um telemóvel a mostrar uma experiência de leitura bilingue.",
         appHeroAlt: "Dois telemóveis com a biblioteca e o ecrã de escuta bilingue, ao lado de uma pessoa a ouvir com auscultadores.",
@@ -379,6 +383,8 @@
         home: "Головна WFJ",
         nav: "Основна навігація",
         language: "Мова",
+        menu: "Відкрити меню",
+        menuClose: "Закрити меню",
         focus: "Напрями",
         heroAlt: "Спокійне робоче місце з ноутбуком і телефоном, на яких двомовне читання.",
         appHeroAlt: "Два телефони з бібліотекою та екраном двомовного слухання поруч із людиною в навушниках.",
@@ -615,13 +621,59 @@
       button.setAttribute("aria-pressed", button.getAttribute("data-set-lang") === lang ? "true" : "false");
     });
 
+    document.querySelectorAll("[data-lang-label]").forEach(function (el) {
+      el.textContent = lang.toUpperCase();
+    });
+
+    document.querySelectorAll("[data-lang-switch]").forEach(function (el) {
+      el.classList.remove("is-open");
+      var trigger = el.querySelector("[data-lang-trigger]");
+      if (trigger) trigger.setAttribute("aria-expanded", "false");
+    });
+
     try {
       localStorage.setItem(STORAGE_KEY, lang);
     } catch (err) {}
   }
 
+  function closeLangSwitchers() {
+    document.querySelectorAll("[data-lang-switch]").forEach(function (el) {
+      el.classList.remove("is-open");
+      var trigger = el.querySelector("[data-lang-trigger]");
+      if (trigger) trigger.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  function initLangSwitch() {
+    document.querySelectorAll("[data-lang-switch]").forEach(function (switcher) {
+      var trigger = switcher.querySelector("[data-lang-trigger]");
+      if (!trigger) return;
+
+      trigger.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        var willOpen = !switcher.classList.contains("is-open");
+        closeLangSwitchers();
+        if (willOpen) {
+          switcher.classList.add("is-open");
+          trigger.setAttribute("aria-expanded", "true");
+        }
+      });
+
+      switcher.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    });
+
+    document.addEventListener("click", closeLangSwitchers);
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeLangSwitchers();
+    });
+  }
+
   function init() {
     apply(detectLang());
+    initLangSwitch();
     document.querySelectorAll("[data-set-lang]").forEach(function (button) {
       button.addEventListener("click", function () {
         apply(button.getAttribute("data-set-lang"));
