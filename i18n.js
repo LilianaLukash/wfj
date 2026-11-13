@@ -24,7 +24,8 @@
       },
       nav: {
         services: "Services",
-        building: "What we're building",
+        work: "Pricing & examples",
+        building: "Our products",
         app: "App",
         contact: "Contact"
       },
@@ -33,7 +34,31 @@
         title: "We turn ideas into working digital products.",
         lead: "From early concepts and MVPs to mobile applications and intelligent automation, WFJ builds practical technology designed to solve real problems.",
         cta: "Get in touch",
-        secondary: "What we do"
+        secondary: "Pricing & examples"
+      },
+      work: {
+        eyebrow: "Pricing & examples",
+        title: "Clear prices and real projects.",
+        lead: "Prices shown are starting points. The final cost depends on scope. Below are examples of work we’ve already delivered.",
+        webKicker: "Website",
+        webPrice: "From €280",
+        webText: "A clear, responsive site for menus, offers and customer information — ready for desktop and mobile.",
+        corpKicker: "Corporate platform",
+        corpPrice: "From €940",
+        appKicker: "Mobile app · Android MVP",
+        appPrice: "From €1,340",
+        appText: "An Android MVP of your product — enough to validate the idea with real users and publish to the store.",
+        appExampleName: "Bilingual Reader",
+        juliosName: "Julio’s",
+        juliosText: "Restaurant website with menus, promotions and everything guests need. Works on desktop and mobile.",
+        juliosAlt: "Homepage screenshot of Julio’s restaurant website.",
+        arvetisName: "ARVETIS",
+        arvetisText: "Corporate web platform with responsive interfaces, backend, database, contact forms, email and production deployment.",
+        arvetisAlt: "Homepage screenshot of the ARVETIS corporate platform.",
+        foodiesKicker: "Web app",
+        foodiesName: "Foodies",
+        foodiesText: "Recipe app with search, filters, authentication, profiles and favorites — React, Node.js and PostgreSQL.",
+        foodiesAlt: "Homepage screenshot of the Foodies web application."
       },
       services: {
         eyebrow: "What we do",
@@ -46,15 +71,15 @@
         aiText: "Intelligent workflows and automation that simplify repetitive processes and help businesses operate more efficiently."
       },
       building: {
-        eyebrow: "What we're building",
-        title: "Building useful technology, one product at a time.",
-        lead: "We explore ideas in education, productivity and intelligent digital tools — from concept and validation to launch.",
+        eyebrow: "Our products",
+        title: "Building useful products, step by step.",
+        lead: "From concept to launch — products for education, productivity and practical digital tools.",
         education: "Education",
         productivity: "Productivity",
-        tools: "Intelligent digital tools",
+        tools: "Digital tools",
         productKicker: "Education · Language learning",
         productName: "Bilingual Reader",
-        productText: "Improve your language without extra time: read and listen to books in the original, with translation, while you walk, commute or stay at home.",
+        productText: "Improve your language without extra study time: read and listen to books in the original with translation — on a walk, on the road or at home.",
         productCta: "See the product"
       },
       app: {
@@ -113,16 +138,16 @@
       },
       contact: {
         eyebrow: "Contact",
-        title: "Let’s make ideas happen.",
-        lead: "Have an idea, a project or a process that could work better? Get in touch.",
+        title: "Let’s talk about your project.",
+        lead: "Have an idea, a task or a process you’d like to simplify? Get in touch.",
         nameLabel: "Name",
-        namePlaceholder: "Your name",
+        namePlaceholder: "How should we address you",
         messageLabel: "Message",
-        messagePlaceholder: "Tell us briefly what you need",
+        messagePlaceholder: "Briefly describe what you need",
         whatsappCta: "Message on WhatsApp",
         whatsappNote: "Opens WhatsApp with your message ready to send.",
         orEmail: "Or email",
-        whatsappTemplate: "Hello, my name is {name}.\n\n{message}"
+        whatsappTemplate: "Hello! My name is {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. All rights reserved.",
@@ -208,8 +233,9 @@
       },
       nav: {
         services: "Serviços",
-        building: "O que estamos a construir",
-        app: "Produto",
+        work: "Preços e exemplos",
+        building: "Os nossos produtos",
+        app: "Aplicação",
         contact: "Contacto"
       },
       hero: {
@@ -217,7 +243,31 @@
         title: "Transformamos ideias em produtos digitais reais.",
         lead: "Desde conceitos iniciais e MVPs até aplicações móveis e automação inteligente, a WFJ cria tecnologia prática pensada para resolver problemas reais.",
         cta: "Fale connosco",
-        secondary: "O que fazemos"
+        secondary: "Preços e exemplos"
+      },
+      work: {
+        eyebrow: "Preços e exemplos",
+        title: "Preços claros e projetos reais.",
+        lead: "Os valores são preços de partida. O custo final depende do âmbito do projeto. Abaixo estão exemplos do trabalho que já entregámos.",
+        webKicker: "Website",
+        webPrice: "A partir de €280",
+        webText: "Um site responsivo e claro para menus, ofertas e informação ao cliente — pronto para computador e telemóvel.",
+        corpKicker: "Plataforma corporativa",
+        corpPrice: "A partir de €940",
+        appKicker: "Aplicação móvel · MVP Android",
+        appPrice: "A partir de €1.340",
+        appText: "Um MVP Android do seu produto — para validar a ideia com utilizadores reais e publicar na loja.",
+        appExampleName: "Bilingual Reader",
+        juliosName: "Julio’s",
+        juliosText: "Website de restaurante com menus, promoções e informação para clientes. Funciona no computador e no telemóvel.",
+        juliosAlt: "Captura da homepage do website do restaurante Julio’s.",
+        arvetisName: "ARVETIS",
+        arvetisText: "Plataforma web corporativa com interfaces responsivas, backend, base de dados, formulários de contacto, e-mail e publicação em produção.",
+        arvetisAlt: "Captura da homepage da plataforma corporativa ARVETIS.",
+        foodiesKicker: "Aplicação web",
+        foodiesName: "Foodies",
+        foodiesText: "Aplicação de receitas com pesquisa, filtros, autenticação, perfis e favoritos — React, Node.js e PostgreSQL.",
+        foodiesAlt: "Captura da homepage da aplicação Foodies."
       },
       services: {
         eyebrow: "O que fazemos",
@@ -230,12 +280,12 @@
         aiText: "Fluxos de trabalho inteligentes e automação que simplificam processos repetitivos e ajudam as empresas a operar com mais eficiência."
       },
       building: {
-        eyebrow: "O que estamos a construir",
-        title: "Construímos tecnologia útil, um produto de cada vez.",
-        lead: "Exploramos ideias em educação, produtividade e ferramentas digitais inteligentes — do conceito e validação até ao lançamento.",
+        eyebrow: "Os nossos produtos",
+        title: "Criamos produtos úteis, passo a passo.",
+        lead: "Da ideia ao lançamento — produtos para educação, produtividade e serviços digitais práticos.",
         education: "Educação",
         productivity: "Produtividade",
-        tools: "Ferramentas digitais inteligentes",
+        tools: "Ferramentas digitais",
         productKicker: "Educação · Aprendizagem de línguas",
         productName: "Bilingual Reader",
         productText: "Melhore a língua sem tempo extra: leia e ouça livros no original, com tradução, a caminhar, no caminho ou em casa.",
@@ -297,16 +347,16 @@
       },
       contact: {
         eyebrow: "Contacto",
-        title: "Vamos fazer as ideias acontecer.",
-        lead: "Tem uma ideia, um projeto ou um processo que podia funcionar melhor? Fale connosco.",
+        title: "Vamos falar do seu projeto.",
+        lead: "Tem uma ideia, uma tarefa ou um processo que quer simplificar? Fale connosco.",
         nameLabel: "Nome",
-        namePlaceholder: "O seu nome",
+        namePlaceholder: "Como devemos tratar-lhe",
         messageLabel: "Mensagem",
-        messagePlaceholder: "Diga-nos brevemente o que precisa",
+        messagePlaceholder: "Descreva brevemente o que precisa",
         whatsappCta: "Enviar no WhatsApp",
-        whatsappNote: "Abre o WhatsApp com a mensagem pronta a enviar.",
+        whatsappNote: "Abre o WhatsApp com a mensagem já preenchida.",
         orEmail: "Ou e-mail",
-        whatsappTemplate: "Olá, chamo-me {name}.\n\n{message}"
+        whatsappTemplate: "Olá! Chamo-me {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. Todos os direitos reservados.",
@@ -392,37 +442,62 @@
       },
       nav: {
         services: "Послуги",
-        building: "Що ми будуємо",
+        work: "Ціни та приклади",
+        building: "Наші продукти",
         app: "Застосунок",
-        contact: "Контакт"
+        contact: "Контакти"
       },
       hero: {
-        eyebrow: "Цифрові продукти та інтелектуальна автоматизація",
+        eyebrow: "Цифрові продукти та розумна автоматизація",
         title: "Перетворюємо ідеї на робочі цифрові продукти.",
-        lead: "Від ранніх концепцій і MVP до мобільних застосунків та інтелектуальної автоматизації WFJ створює практичну технологію для реальних задач.",
+        lead: "Від перших прототипів і MVP до мобільних застосунків та автоматизації процесів — WFJ робить технології, які вирішують конкретні задачі бізнесу.",
         cta: "Написати нам",
-        secondary: "Що ми робимо"
+        secondary: "Ціни та приклади"
+      },
+      work: {
+        eyebrow: "Ціни та приклади",
+        title: "Зрозумілі ціни та реальні проєкти.",
+        lead: "Вказано стартові ціни. Підсумкова вартість залежить від обсягу задачі. Нижче — приклади того, що ми вже робили.",
+        webKicker: "Сайт",
+        webPrice: "від €280",
+        webText: "Охайний адаптивний сайт: меню, акції та інформація для клієнтів — зручно і на комп’ютері, і на телефоні.",
+        corpKicker: "Корпоративна платформа",
+        corpPrice: "від €940",
+        appKicker: "Мобільний застосунок · MVP на Android",
+        appPrice: "від €1 340",
+        appText: "MVP вашого продукту на Android: можна перевірити ідею на реальних користувачах і викласти збірку в магазин.",
+        appExampleName: "Bilingual Reader",
+        juliosName: "Julio’s",
+        juliosText: "Сайт ресторану: меню, акції та все потрібне для гостей. Працює на комп’ютері й на телефоні.",
+        juliosAlt: "Скріншот головної сторінки сайту ресторану Julio’s.",
+        arvetisName: "ARVETIS",
+        arvetisText: "Корпоративний сайт з адаптивною версткою, серверною частиною, базою даних, формами зворотного зв’язку, поштою та публікацією на сервері.",
+        arvetisAlt: "Скріншот головної сторінки платформи ARVETIS.",
+        foodiesKicker: "Вебзастосунок",
+        foodiesName: "Foodies",
+        foodiesText: "Застосунок із рецептами: пошук, фільтри, вхід в акаунт, профілі й обране. Стек — React, Node.js і PostgreSQL.",
+        foodiesAlt: "Скріншот головної сторінки застосунку Foodies."
       },
       services: {
-        eyebrow: "Що ми робимо",
-        title: "Проєктуємо й будуємо цифрові продукти, мобільні застосунки, MVP та рішення інтелектуальної автоматизації.",
+        eyebrow: "Чим ми займаємося",
+        title: "Робимо сайти, мобільні застосунки, MVP і рішення для автоматизації.",
         productsTitle: "Цифрові продукти",
-        productsText: "Веб- і мобільні продукти навколо реальних потреб користувача.",
+        productsText: "Веб- і мобільні сервіси, заточені під реальні задачі користувачів.",
         mvpTitle: "Розробка MVP",
-        mvpText: "Швидка перевірка ідей через зосереджені, робочі мінімальні продукти.",
+        mvpText: "Швидко збираємо мінімальну робочу версію, щоб перевірити ідею до великих вкладень.",
         aiTitle: "ШІ та автоматизація",
-        aiText: "Розумні процеси й автоматизація, що спрощують повторювану роботу і допомагають бізнесу працювати ефективніше."
+        aiText: "Автоматизуємо рутину й налаштовуємо розумні процеси — щоб бізнес витрачав менше часу на одне й те саме."
       },
       building: {
-        eyebrow: "Що ми будуємо",
-        title: "Корисна технологія — один продукт за раз.",
-        lead: "Досліджуємо ідеї в освіті, продуктивності та інтелектуальних цифрових інструментах — від концепції й перевірки до запуску.",
+        eyebrow: "Наші продукти",
+        title: "Створюємо корисні продукти крок за кроком.",
+        lead: "Від задуму до запуску — продукти для освіти, продуктивності та зручних цифрових сервісів.",
         education: "Освіта",
         productivity: "Продуктивність",
-        tools: "Інтелектуальні цифрові інструменти",
-        productKicker: "Освіта · Вивчення мов",
+        tools: "Цифрові інструменти",
+        productKicker: "Освіта · Іноземні мови",
         productName: "Bilingual Reader",
-        productText: "Покращуйте мову без додаткового часу: читайте й слухайте книги в оригіналі з перекладом — на прогулянці, в дорозі чи вдома.",
+        productText: "Підтягуйте мову без окремого часу на навчання: читайте й слухайте книги в оригіналі з перекладом — на прогулянці, в дорозі чи вдома.",
         productCta: "Дивитися продукт"
       },
       app: {
@@ -480,17 +555,17 @@
         privacyNote: "Мобільний застосунок WFJ. Аналітику описано в Політиці конфіденційності."
       },
       contact: {
-        eyebrow: "Контакт",
-        title: "Зробимо ідеї реальними.",
-        lead: "Є ідея, проєкт або процес, який може працювати краще? Напишіть нам.",
+        eyebrow: "Контакти",
+        title: "Давайте обговоримо ваш проєкт.",
+        lead: "Є ідея, задача чи процес, який хочеться спростити? Напишіть нам.",
         nameLabel: "Ім’я",
-        namePlaceholder: "Ваше ім’я",
+        namePlaceholder: "Як до вас звертатися",
         messageLabel: "Повідомлення",
-        messagePlaceholder: "Коротко опишіть, що потрібно",
+        messagePlaceholder: "Коротко опишіть задачу",
         whatsappCta: "Написати в WhatsApp",
-        whatsappNote: "Відкриє WhatsApp із готовим повідомленням.",
+        whatsappNote: "Відкриється WhatsApp із уже заповненим текстом.",
         orEmail: "Або email",
-        whatsappTemplate: "Вітаю, мене звати {name}.\n\n{message}"
+        whatsappTemplate: "Вітаю! Мене звати {name}.\n\n{message}"
       },
       footer: {
         copy: "© 2026 WFJ. Усі права захищено.",
@@ -553,24 +628,187 @@
         contactTitle: "Контакт",
         contactHtml: "WFJ<br>30 N Gould St Ste R<br>Sheridan, WY, US<br>Електронна пошта: <a href=\"mailto:admin@wfj.pt\">admin@wfj.pt</a>"
       }
+    },
+    ru: {
+      meta: {
+        homeTitle: "WFJ — цифровые продукты и умная автоматизация",
+        homeDescription: "WFJ проектирует и разрабатывает сайты, мобильные приложения, MVP и решения для автоматизации бизнеса.",
+        appTitle: "Bilingual Reader — WFJ",
+        appDescription: "Подтягивайте язык без отдельного времени на учёбу. Bilingual Reader совмещает оригинал, перевод и озвучку — на прогулке, в дороге, на тренировке или дома.",
+        privacyTitle: "Privacy Policy — WFJ",
+        privacyDescription: "Privacy Policy for WFJ websites, digital products and mobile applications."
+      },
+      a11y: {
+        home: "На главную WFJ",
+        nav: "Главное меню",
+        language: "Язык",
+        menu: "Открыть меню",
+        menuClose: "Закрыть меню",
+        focus: "Направления",
+        heroAlt: "Рабочее место с ноутбуком и телефоном: на экране — приложение для двуязычного чтения.",
+        appHeroAlt: "Два телефона с библиотекой книг и экраном двуязычного прослушивания рядом с человеком в наушниках.",
+        where: "Где можно слушать"
+      },
+      nav: {
+        services: "Услуги",
+        work: "Цены и примеры",
+        building: "Наши продукты",
+        app: "Приложение",
+        contact: "Контакты"
+      },
+      hero: {
+        eyebrow: "Цифровые продукты и умная автоматизация",
+        title: "Превращаем идеи в работающие цифровые продукты.",
+        lead: "От первых прототипов и MVP до мобильных приложений и автоматизации процессов — WFJ делает технологии, которые решают конкретные задачи бизнеса.",
+        cta: "Написать нам",
+        secondary: "Цены и примеры"
+      },
+      work: {
+        eyebrow: "Цены и примеры",
+        title: "Понятные цены и реальные проекты.",
+        lead: "Указаны стартовые цены. Итоговая стоимость зависит от объёма задачи. Ниже — примеры того, что мы уже делали.",
+        webKicker: "Сайт",
+        webPrice: "от €280",
+        webText: "Аккуратный адаптивный сайт: меню, акции и информация для клиентов — удобно и на компьютере, и на телефоне.",
+        corpKicker: "Корпоративная платформа",
+        corpPrice: "от €940",
+        appKicker: "Мобильное приложение · MVP на Android",
+        appPrice: "от €1 340",
+        appText: "MVP вашего продукта на Android: можно проверить идею на реальных пользователях и выложить сборку в магазин.",
+        appExampleName: "Bilingual Reader",
+        juliosName: "Julio’s",
+        juliosText: "Сайт ресторана: меню, акции и всё нужное для гостей. Работает на компьютере и на телефоне.",
+        juliosAlt: "Скриншот главной страницы сайта ресторана Julio’s.",
+        arvetisName: "ARVETIS",
+        arvetisText: "Корпоративный сайт с адаптивной вёрсткой, серверной частью, базой данных, формами обратной связи, почтой и публикацией на сервере.",
+        arvetisAlt: "Скриншот главной страницы платформы ARVETIS.",
+        foodiesKicker: "Веб-приложение",
+        foodiesName: "Foodies",
+        foodiesText: "Приложение с рецептами: поиск, фильтры, вход в аккаунт, профили и избранное. Стек — React, Node.js и PostgreSQL.",
+        foodiesAlt: "Скриншот главной страницы приложения Foodies."
+      },
+      services: {
+        eyebrow: "Чем мы занимаемся",
+        title: "Делаем сайты, мобильные приложения, MVP и решения для автоматизации.",
+        productsTitle: "Цифровые продукты",
+        productsText: "Веб- и мобильные сервисы, заточенные под реальные задачи пользователей.",
+        mvpTitle: "Разработка MVP",
+        mvpText: "Быстро собираем минимальную рабочую версию, чтобы проверить идею до больших вложений.",
+        aiTitle: "ИИ и автоматизация",
+        aiText: "Автоматизируем рутину и настраиваем умные процессы — чтобы бизнес тратил меньше времени на одно и то же."
+      },
+      building: {
+        eyebrow: "Наши продукты",
+        title: "Создаём полезные продукты шаг за шагом.",
+        lead: "От замысла до запуска — продукты для образования, продуктивности и удобных цифровых сервисов.",
+        education: "Образование",
+        productivity: "Продуктивность",
+        tools: "Цифровые инструменты",
+        productKicker: "Образование · Иностранные языки",
+        productName: "Bilingual Reader",
+        productText: "Подтягивайте язык без отдельного времени на учёбу: читайте и слушайте книги в оригинале с переводом — на прогулке, в дороге или дома.",
+        productCta: "Смотреть продукт"
+      },
+      app: {
+        eyebrow: "Читать. Слушать. Понимать.",
+        title: "Bilingual Reader",
+        claim: "Подтягивайте язык без отдельного времени на учёбу.",
+        lead: "Учите язык естественно — через книги в оригинале. Текст, озвучка и перевод идут вместе: прогулка, дорога, тренировка или вечер дома уже становятся практикой.",
+        storeCta: "Скачать в Google Play",
+        download: "Скачать для Android",
+        contact: "Спросить про приложение",
+        howEyebrow: "Как это работает",
+        howTitle: "Оригинал, перевод и озвучка — в одном непрерывном цикле.",
+        how1Title: "Слушаете оригинал",
+        how1Text: "Короткий фрагмент на языке книги: и текст, и голос.",
+        how2Title: "Слушаете перевод",
+        how2Text: "Тот же отрывок на языке, на котором вы уже думаете.",
+        how3Title: "Слушаете снова",
+        how3Text: "Оригинал возвращается — смысл уже понятен.",
+        whereEyebrow: "Без лишнего часа в расписании",
+        whereTitle: "Практика в то время, которое у вас уже есть.",
+        whereLead: "Экран можно выключить. Книга идёт дальше, пока вы просто живёте свой день.",
+        whereWalk: "На прогулке",
+        whereCommute: "В дороге",
+        whereSport: "На тренировке",
+        whereHome: "Дома",
+        featuresEyebrow: "Всё в одном месте",
+        featuresTitle: "Текст, озвучка и перевод — без прыжков между приложениями.",
+        featTextTitle: "Оригинал и перевод",
+        featTextText: "Сначала видите и слышите фрагмент на языке книги, потом — на языке, который уже знаете.",
+        featVoiceTitle: "Живой голос",
+        featVoiceText: "Книгу читают внятно: слух тренируется на настоящих предложениях, а не на отдельных словах.",
+        featSettingsTitle: "Гибкая настройка",
+        featSettingsText: "Можно выбрать голос, язык перевода и как часто снова звучит оригинал. Скорость меняется без пересборки книги.",
+        featOfflineTitle: "Офлайн",
+        featOfflineText: "Скачайте следующие главы на телефон и слушайте без интернета — в самолёте или на длинной прогулке.",
+        featLibraryTitle: "Готовая библиотека",
+        featLibraryText: "Книги из общественного достояния, чтобы сразу начать, или свой файл EPUB.",
+        factsEyebrow: "Что внутри",
+        factsTitle: "Библиотека, с которой можно начать сегодня, на языках, которые вы реально читаете.",
+        factFreeTitle: "Бесплатный старт",
+        factFreeText: "Без отдельного урока. Откройте книгу и начните.",
+        factLevelTitle: "Для уровня A2–B2",
+        factLevelText: "Настоящие книги, а не курс из выдуманных фраз.",
+        factLoopTitle: "Текст + аудио + перевод",
+        factLoopText: "Оригинал → перевод → оригинал — за одно прослушивание.",
+        factOrigTitle: "19 языков оригинала",
+        factOrigText: "Английский, португальский, испанский, французский, немецкий, итальянский, польский и другие.",
+        factTrTitle: "Перевод на 3 языка",
+        factTrText: "Украинский, английский или русский — на том, на котором думаете.",
+        getEyebrow: "Android",
+        getTitle: "Скачайте приложение",
+        getLead: "Bilingual Reader уже в Google Play. Откройте карточку на телефоне и установите из магазина.",
+        installHint: "Через Google Play удобнее: будут обновления. APK ниже — если нужна прямая установка.",
+        packageLabel: "Файл Android (APK)",
+        privacyNote: "Мобильное приложение WFJ. Как мы обрабатываем данные — в Privacy Policy."
+      },
+      contact: {
+        eyebrow: "Контакты",
+        title: "Давайте обсудим ваш проект.",
+        lead: "Есть идея, задача или процесс, который хочется упростить? Напишите нам.",
+        nameLabel: "Имя",
+        namePlaceholder: "Как к вам обращаться",
+        messageLabel: "Сообщение",
+        messagePlaceholder: "Кратко опишите задачу",
+        whatsappCta: "Написать в WhatsApp",
+        whatsappNote: "Откроется WhatsApp с уже заполненным текстом.",
+        orEmail: "Или по email",
+        whatsappTemplate: "Здравствуйте! Меня зовут {name}.\n\n{message}"
+      },
+      footer: {
+        copy: "© 2026 WFJ. Все права защищены.",
+        privacy: "Privacy Policy"
+      }
     }
   };
 
   function lookup(lang, path) {
-    return path.split(".").reduce(function (node, key) {
+    var value = path.split(".").reduce(function (node, key) {
       return node && node[key];
     }, I18N[lang]);
+    if ((typeof value !== "string") && lang === "ru") {
+      value = path.split(".").reduce(function (node, key) {
+        return node && node[key];
+      }, I18N.en);
+    }
+    return value;
+  }
+
+  function isSupportedLang(lang) {
+    return lang === "en" || lang === "pt" || lang === "uk" || lang === "ru";
   }
 
   function detectLang() {
     var fromUrl = new URLSearchParams(window.location.search).get("lang");
-    if (fromUrl === "en" || fromUrl === "pt" || fromUrl === "uk") return fromUrl;
+    if (isSupportedLang(fromUrl)) return fromUrl;
     try {
       var saved = localStorage.getItem(STORAGE_KEY);
-      if (saved === "en" || saved === "pt" || saved === "uk") return saved;
+      if (isSupportedLang(saved)) return saved;
     } catch (err) {}
     var nav = (navigator.language || "").toLowerCase();
     if (nav.indexOf("uk") === 0) return "uk";
+    if (nav.indexOf("ru") === 0) return "ru";
     if (nav.indexOf("pt") === 0) return "pt";
     return "en";
   }

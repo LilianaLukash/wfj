@@ -2,14 +2,15 @@
   var WHATSAPP_NUMBER = "351919272201";
 
   var TEMPLATES = {
-    en: "Hello, my name is {name}.\n\n{message}",
-    pt: "Olá, chamo-me {name}.\n\n{message}",
-    uk: "Вітаю, мене звати {name}.\n\n{message}"
+    en: "Hello! My name is {name}.\n\n{message}",
+    pt: "Olá! Chamo-me {name}.\n\n{message}",
+    uk: "Вітаю! Мене звати {name}.\n\n{message}",
+    ru: "Здравствуйте! Меня зовут {name}.\n\n{message}"
   };
 
   function currentLang() {
     var lang = document.documentElement.dataset.lang || document.documentElement.lang;
-    if (lang === "pt" || lang === "uk") return lang;
+    if (lang === "pt" || lang === "uk" || lang === "ru") return lang;
     return "en";
   }
 

@@ -106,8 +106,8 @@ img {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 10;
-  background: rgba(255, 253, 248, 0.86);
+  z-index: 100;
+  background: rgba(255, 253, 248, 0.94);
   backdrop-filter: saturate(160%) blur(14px);
   -webkit-backdrop-filter: saturate(160%) blur(14px);
   border-bottom: 1px solid rgba(230, 220, 203, 0.8);
@@ -555,6 +555,63 @@ body.nav-open .nav-toggle-bars::after {
 .card p {
   color: var(--ink-soft);
   font-size: 16px;
+}
+
+/* ---------- Pricing & work ---------- */
+.work-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.work-shot {
+  display: grid;
+  gap: 14px;
+  color: inherit;
+}
+
+.work-shot picture {
+  display: block;
+  width: 100%;
+}
+
+.work-shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  background: #fffdf8;
+}
+
+.work-shot-copy {
+  max-width: 54ch;
+}
+
+.work-shot-meta {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+}
+
+.work-shot h3 {
+  font-size: clamp(24px, 6vw, 34px);
+  margin-bottom: 8px;
+}
+
+.work-shot-copy > p:last-child {
+  color: var(--ink-soft);
+  font-size: 16px;
+}
+
+.work-shot:hover img {
+  border-color: #d8c89a;
+}
+
+.work-shot:hover h3 {
+  color: var(--gold-deep);
 }
 
 /* ---------- What we're building ---------- */
@@ -1076,41 +1133,6 @@ body.nav-open .nav-toggle-bars::after {
     font-size: 14px;
   }
 
-  .lang-trigger {
-    display: none;
-  }
-
-  .lang-menu {
-    display: inline-flex !important;
-    position: static;
-    top: auto;
-    right: auto;
-    min-width: 0;
-    padding: 0;
-    border-radius: 999px;
-    overflow: hidden;
-    box-shadow: none;
-    gap: 0;
-  }
-
-  .lang-menu button {
-    min-width: 0;
-    min-height: 0;
-    border-radius: 0;
-    padding: 7px 8px;
-    text-align: center;
-  }
-
-  .lang-menu button:hover {
-    background: transparent;
-    color: var(--ink);
-  }
-
-  .lang-menu button[aria-pressed="true"]:hover {
-    background: var(--ink);
-    color: #fffdf8;
-  }
-
   .hero-scene {
     display: block;
     min-height: min(68vh, 640px);
@@ -1207,6 +1229,16 @@ body.nav-open .nav-toggle-bars::after {
   .steps {
     grid-template-columns: repeat(2, 1fr);
     gap: 22px;
+  }
+
+  .work-list {
+    gap: 48px;
+  }
+
+  .work-shot {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 28px;
+    align-items: center;
   }
 
   .card,
@@ -1370,6 +1402,14 @@ body.nav-open .nav-toggle-bars::after {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .work-list {
+    gap: 56px;
+  }
+
+  .work-shot {
+    gap: 36px;
+  }
+
   .fact-list,
   .steps {
     grid-template-columns: repeat(3, 1fr);
@@ -1479,9 +1519,10 @@ body.nav-open .nav-toggle-bars::after {
   }
 }
 
-/* Safety: never allow page-wide horizontal scroll */
+/* Safety: never allow page-wide horizontal scroll.
+   Use clip (not hidden) so position:sticky on the header still works. */
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
